@@ -7,22 +7,6 @@
 #include <iostream>
 
 
-//using text_t = std::string; best so you dont have to keep typing std::string;
-// std:: cin >> name; is best for single word answers for user input
-// std::getline(std::cin, name); is best for more than one word answers for user input
-// To prevent user input buffers we use std::getline(std::cin >> std::ws, name);
-// z; means you are declaring something but not yet assigning it( z can be any variable such as age, name, ect...)
-// z = means you are assigning it(  z can be any variable such as age, name, ect...)
-// z = std::max/min(x,y) will print out the max/min number between the two variables(x,y)
-// z = pow(2, 3); will print 2^3=8 need to #include <cmath>
-// z = sqrt(9); will print the square root of 9, need to #include <cmath>
-// z = abs(-3); will print out 3, this is the absolute value
-// z = round(int(number with a decimal)); will round the number to the nearest whole number | could also use z = ceil/floor (int(number with a decimal)); to round up a number up(ceil) or down(floor) no matter the decimal place
-// switch(){} = alternative to using many else if statements | compare one value against matching cases and it will print a different message | case 'l':
-// default: = kinda like an else statement, if user dosnt put right input it will print out a message
-// char = holds single letters
-
-
 using std::cout;
 int main(){
     std::string name;
